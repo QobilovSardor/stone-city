@@ -11,6 +11,12 @@ module.exports = {
 			fontFamily: {
 				"Monserat": "Montserrat",
 				"Vollkorn": "Vollkorn"
+			},
+			lineHeight: {
+				"5.5": "22px"
+			},
+			fontSize: {
+				"1xl": "22px"
 			}
 		},
 	},
