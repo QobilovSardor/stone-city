@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	@apply font-Monserat font-normal
+}
+
 .container {
-	@apply flex;
+	@apply max-w-[1420px] mx-auto;
+}
+
+.header-top__item:hover svg>path {
+	@apply fill-green;
 }

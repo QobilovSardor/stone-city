@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{html,js}"],
+	content: ["./**/*.{html,js}"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				"green": "#739678",
+				"light-green": "#62CF73",
+				"black": "#242424"
+			},
+			fontFamily: {
+				"Monserat": "Montserrat",
+				"Vollkorn": "Vollkorn"
+			}
+		},
 	},
 	plugins: [],
 }
